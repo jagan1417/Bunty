@@ -1,0 +1,15 @@
+<h1>Result</h1>
+<h3>Your Text</h3>
+{{message}}
+
+<p> number of words {{count}} </p>
+
+<ol type='*'>
+
+{% for key,value in word_count.items %}
+
+<li>{{key}}: {{value}}</li>
+
+{% endfor %}
+
+</ol>
